@@ -6,7 +6,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     
     "build": "tsc",
-    "start": "node ./dist/calcwithstyle.js"
+    "start": "node ./dist/calcwithstyle.js",
+    "format": "prettier --write .",
+    "lint": "eslint . --ext .ts"
   },
   "keywords": [],
   "author": "",
